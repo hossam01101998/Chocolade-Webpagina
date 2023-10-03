@@ -1,0 +1,140 @@
+@font-face {
+    font-family: font1;
+    src: url(Vollkorn-Black.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(OpenSans-Bold.ttf);
+}
+/*body header img {
+    width: 200px;
+    height:200px;
+}*/
+header {
+    margin: 20px auto auto 500px;
+    margin-top: 2%;
+}
+body {
+    font: font1;
+}
+.main {
+    background-image: url("./img/chocoladen.jpg") ;
+    /*filter: brightness(50%); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+#boven {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-content: space-around;
+    margin-bottom: 100px;
+
+    
+}
+a {
+    text-decoration: none;
+    font: font2;
+    font-size: 40px;
+    color: black;
+    padding: 5%;
+    margin: 20px;
+
+
+}
+#winkel {
+    background-color: #91c483;
+    color: white;
+    padding: 10px;
+    border-radius: 1rem;
+}
+body div h1{
+    padding-top: 15%;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+
+} 
+body div h3 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer div {
+    font-size: 20px;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    padding-right: 10%;
+    
+}
+/* winkel*/
+#chocoladetype {
+    background-color: #eeeeee;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 200px;
+    
+
+
+}
+section div {
+border-style: outset;
+
+}
+section div h1 {
+    font-size: 50px;
+    color: #91c483;
+    text-decoration: underline;
+}
+section div h3 {
+    font-size: 30px;
+    color: black;
+}
+/* contact*/
+#contact {
+    background-color: #eeeeee;
+    margin-left: 50px;
+
+}
+div h2 {
+    color: #91c483;
+    font-size: 100px;
+
+}
+div h4 {
+    color: black;
+    font-size: 30px;
+}
+.formulier {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #91c483;
+    font-size: 40px;
+    text-align: center;
+    padding: 5%;
+}
+
+
+
+
+@media (min-width : 480px){
+
+}
+
+
+@media (min-width : 768px) {
+    
+}
+@media (min-width: 1024px) {
+    
+}
